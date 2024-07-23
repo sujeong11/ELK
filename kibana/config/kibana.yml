@@ -1,0 +1,4 @@
+server.name: kibana
+server.host: 0.0.0.0
+elasticsearch.hosts: [ "http://{ELASTICSEARCH_서버_주소}:9200" ]
+xpack.monitoring.ui.enabled: true
