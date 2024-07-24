@@ -1,0 +1,8 @@
+logging:
+  level:
+    com.msa.elasticsearch: debug
+    org.hibernate.sql: debug
+
+spring:
+  elasticsearch:
+    uris: ${ELASTICSEARCH_URLS}
